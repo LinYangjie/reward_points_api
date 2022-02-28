@@ -91,6 +91,59 @@ ___
 
   `http://localhost:5000/transactions`
 
+### ***Fetch balance***
+___
+
+  Return json data of all payer with their reward points balance
+
+* **URL**
+
+  /balance
+
+* **Method:**
+
+  `GET` 
+  
+*  **URL Params**
+
+   None
+
+   **Required:**
+ 
+   None
+
+* **Data Params**
+
+  None
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:**  
+
+                  [{
+                    "payer": "DANNON",
+                    "points": 1100, 
+                    }]  
+ 
+* **Error Response:**
+
+
+  * **Code:** 405 UNAUTHORIZED <br />
+    **Content:** 
+                  
+                  Method Not Allowed
+
+                  The method is not allowed for the requested URL.
+  
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:**  Rest of the errors.
+
+
+
+* **Sample Call:**
+
+  `http://localhost:5000/balance`
 
  ### ***Add Transaction***
 ___
