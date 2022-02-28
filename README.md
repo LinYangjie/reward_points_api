@@ -5,7 +5,7 @@
 ***Software Installation***
   - **Python:** [Link](https://www.python.org/downloads/)
   - **Flask: Python framework** [Link](https://pypi.org/project/Flask/)<br />
-  >> Need to install pip first: `pip install pip`
+  Need to install pip first: `pip install pip`
      
   - **Postman:** [Link](https://www.postman.com/downloads/)
 
@@ -15,19 +15,19 @@
 
   - **step 1** : Copy below code snippet, type in terminal with desire location.
   
-  >> `git clone https://github.com/LinYangjie/reward_points_api.git`
+  &nbsp; `git clone https://github.com/LinYangjie/reward_points_api.git`
 
   - **step 2** : setup flask
   
-  >> `set FLASK_APP=app.py`
+  &nbsp; `set FLASK_APP=app.py`
   
   - **step 3** : run server
 
-  >> `python app.py` 
+  &nbsp; `python app.py` 
 
   - **step 4** : run PostMan to test below api (run on portal 5000)
   
-  >> `http://localhost:5000/<test below api>`
+  &nbsp; `http://localhost:5000/<test below api>`
    
 </br> 
 
